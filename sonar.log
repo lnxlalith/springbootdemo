@@ -10,6 +10,9 @@
 [INFO] Load global repositories
 [INFO] Load global repositories (done) | time=237ms
 [INFO] User cache: E:\Users\amitk.kmr\.sonar\cache
+
+
+
 [INFO] Load plugins index
 [INFO] Load plugins index (done) | time=35ms
 [INFO] SonarQube version: 6.2
