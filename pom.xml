@@ -24,6 +24,33 @@
 			</snapshots>
 		</repository>
 	</repositories>
+			<properties>
+<sonar.host.url>http://40.114.33.0:9000</sonar.host.url>
+
+<sonar.login.user>admin</sonar.login.user>
+<sonar.login.password>admin</sonar.login.password>
+<sonar.projectKey>springbootdemo
+
+<sonar.projectName>springbootdemo</sonar.projectName>
+<sonar.projectVersion>1.0</sonar.projectVersion>
+
+<sonar.sources>src/main/java/com</sonar.sources>
+
+
+<sonar.language>java</sonar.language>
+<sonar.tests>src/test/java/com</sonar.tests>
+<sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
+<sonar.junit.reportsPath>target/site/jacoco</sonar.junit.reportsPath>
+<sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
+<sonar.jacoco.reportPath>target/jacoco.exec</sonar.jacoco.reportPath>
+<sonar.working.directory>target/sonar</sonar.working.directory>
+<sonar.java.binaries>target/classes</sonar.java.binaries>	
+			</properties>
+
+	
+	
+	
+	
 	<dependencies>
 		<dependency>
 			<groupId>edu.cmu.sphinx</groupId>
