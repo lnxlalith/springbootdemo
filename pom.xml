@@ -25,6 +25,13 @@
 		</repository>
 	</repositories>
 			<properties>
+				
+
+	<java.version>1.8</java.version>
+	<start-class>com.springbootdemo.Main</start-class>
+
+
+				
 <sonar.host.url>http://40.114.33.0:9000</sonar.host.url>
 
 <sonar.login.user>admin</sonar.login.user>
@@ -215,11 +222,7 @@
 
 	</dependencies>
 
-	<properties>
-		<java.version>1.8</java.version>
-		<start-class>com.springbootdemo.Main</start-class>
-	</properties>
-
+	
 
 	<build>
 		<defaultGoal>install</defaultGoal>
