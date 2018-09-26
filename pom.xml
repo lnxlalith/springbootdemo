@@ -29,7 +29,7 @@
 
 <sonar.login.user>admin</sonar.login.user>
 <sonar.login.password>admin</sonar.login.password>
-<sonar.projectKey>springbootdemo
+<sonar.projectKey>springbootdemo</sonar.projectKey>
 
 <sonar.projectName>springbootdemo</sonar.projectName>
 <sonar.projectVersion>1.0</sonar.projectVersion>
