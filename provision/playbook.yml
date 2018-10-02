@@ -6,5 +6,8 @@
         force: yes
         url: "target/SpringBoot-0.0.1-SNAPSHOT.war"
         dest: "/opt/tomcat/apache-tomcat-8.5.34/webapps/SpringBoot-0.0.1-SNAPSHOT.war"
-    - stat: 
-        path: "/opt/tomcat/apache-tomcat-8.5.34/webapps/SpringBoot-0.0.1-SNAPSHOT.war"
+    - name: "copy spring boot file"
+       copy:
+         src: target/SpringBoot-0.0.1-SNAPSHOT.war
+         dest: /opt/tomcat/apache-tomcat-8.5.34/webapps/SpringBoot-0.0.1-SNAPSHOT.war
+         
