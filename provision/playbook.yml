@@ -1,6 +1,5 @@
 - hosts: app_server
-  tasks:
 - name: "copy spring boot file"
-  copy:
+    copy:
       src: target/SpringBoot-0.0.1-SNAPSHOT.war
       dest: /opt/tomcat/apache-tomcat-8.5.34/webapps/SpringBoot-0.0.1-SNAPSHOT.war
