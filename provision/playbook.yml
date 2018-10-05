@@ -1,4 +1,4 @@
-- hosts: app_server
+- hosts: all
   tasks:
   - name: copy spring boot file
     copy:
