@@ -1,8 +1,9 @@
 ---
-- hosts: all
-- get_url:
+hosts: all
+tasks:
+    - get_url:
         force: yes
         url: "http://192.168.33.11:8081/artifactory/Test/SpringBoot-0.0.1-SNAPSHOT.war"
         dest: "/opt/tomcat/apache-tomcat-8.5.34/webapps/SpringBoot-0.0.1-SNAPSHOT.war"
-- stat: 
+    - stat: 
         path: "/opt/tomcat/apache-tomcat-8.5.34/webapps/SpringBoot-0.0.1-SNAPSHOT.war"
