@@ -1,6 +1,7 @@
 ---
-hosts: all
-tasks:
+- name: Download Application from Repo
+  hosts: all
+  tasks:
     - get_url:
         force: yes
         url: "http://192.168.33.11:8081/artifactory/Test/SpringBoot-0.0.1-SNAPSHOT.war"
